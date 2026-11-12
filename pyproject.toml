@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zapzip"
+version = "0.1.0"
+description = "Perturbational Complexity Index (PCI) for any evoked recording, plus a wake/sleep spiking cortex simulator"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "WeiberNoname"}]
+keywords = ["consciousness", "PCI", "perturbational complexity", "Lempel-Ziv", "EEG", "TMS", "spiking neural network", "AdEx", "reservoir computing"]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+sim = ["numba>=0.57"]
+test = ["pytest", "antropy"]
+
+[project.scripts]
+zapzip = "zapzip.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+markers = ["slow: runs the 10,000-neuron simulator (minutes)"]
+
+[project.urls]
+Homepage = "https://github.com/WeiberNoname/i1"
