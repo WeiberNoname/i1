@@ -1,0 +1,50 @@
+[
+ {
+  "id": "C1",
+  "seed": 200,
+  "state": "wake",
+  "nu_ext": 0.21
+ },
+ {
+  "id": "C2",
+  "seed": 201,
+  "state": "wake",
+  "nu_ext": 0.27
+ },
+ {
+  "id": "C3",
+  "seed": 202,
+  "state": "wake",
+  "nu_ext": 0.33
+ },
+ {
+  "id": "C4",
+  "seed": 203,
+  "state": "wake",
+  "nu_ext": 0.39
+ },
+ {
+  "id": "C5",
+  "seed": 204,
+  "state": "sleep",
+  "nu_ext": 0.21
+ },
+ {
+  "id": "C6",
+  "seed": 205,
+  "state": "sleep",
+  "nu_ext": 0.27
+ },
+ {
+  "id": "C7",
+  "seed": 206,
+  "state": "sleep",
+  "nu_ext": 0.33
+ },
+ {
+  "id": "C8",
+  "seed": 207,
+  "state": "sleep",
+  "nu_ext": 0.39
+ }
+]
