@@ -1,0 +1,166 @@
+{
+ "summary": {
+  "n": 16,
+  "pci_correct": 15,
+  "rate_correct": 16,
+  "P1_pci_at_least_14": true,
+  "P2_rate_worse_than_pci": false,
+  "P3_perfect_pci_separation": true,
+  "cutoffs": {
+   "pci": {
+    "cutoff": 0.2486,
+    "separable_in_calibration": false
+   },
+   "rate_hz": {
+    "cutoff": 2.0395,
+    "separable_in_calibration": true
+   }
+  }
+ },
+ "patients": [
+  {
+   "id": "P01",
+   "true_state": "sleep",
+   "hidden_drive": 0.237,
+   "pci": 0.2387,
+   "rate_hz": 0.693,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P02",
+   "true_state": "wake",
+   "hidden_drive": 0.368,
+   "pci": 0.4401,
+   "rate_hz": 3.242,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P03",
+   "true_state": "sleep",
+   "hidden_drive": 0.293,
+   "pci": 0.1963,
+   "rate_hz": 0.871,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P04",
+   "true_state": "sleep",
+   "hidden_drive": 0.27,
+   "pci": 0.2362,
+   "rate_hz": 0.775,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P05",
+   "true_state": "wake",
+   "hidden_drive": 0.21,
+   "pci": 0.4075,
+   "rate_hz": 3.035,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P06",
+   "true_state": "sleep",
+   "hidden_drive": 0.336,
+   "pci": 0.211,
+   "rate_hz": 0.927,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P07",
+   "true_state": "wake",
+   "hidden_drive": 0.231,
+   "pci": 0.3437,
+   "rate_hz": 3.027,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P08",
+   "true_state": "wake",
+   "hidden_drive": 0.343,
+   "pci": 0.4224,
+   "rate_hz": 3.241,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P09",
+   "true_state": "wake",
+   "hidden_drive": 0.246,
+   "pci": 0.3275,
+   "rate_hz": 3.092,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P10",
+   "true_state": "wake",
+   "hidden_drive": 0.361,
+   "pci": 0.4416,
+   "rate_hz": 3.236,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P11",
+   "true_state": "sleep",
+   "hidden_drive": 0.285,
+   "pci": 0.2242,
+   "rate_hz": 0.85,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P12",
+   "true_state": "wake",
+   "hidden_drive": 0.283,
+   "pci": 0.3651,
+   "rate_hz": 3.152,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P13",
+   "true_state": "sleep",
+   "hidden_drive": 0.354,
+   "pci": 0.1939,
+   "rate_hz": 0.942,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P14",
+   "true_state": "sleep",
+   "hidden_drive": 0.341,
+   "pci": 0.2198,
+   "rate_hz": 0.968,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P15",
+   "true_state": "wake",
+   "hidden_drive": 0.296,
+   "pci": 0.3825,
+   "rate_hz": 3.178,
+   "pci_correct": true,
+   "rate_correct": true
+  },
+  {
+   "id": "P16",
+   "true_state": "sleep",
+   "hidden_drive": 0.376,
+   "pci": 0.2703,
+   "rate_hz": 1.003,
+   "pci_correct": false,
+   "rate_correct": true
+  }
+ ]
+}

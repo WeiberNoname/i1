@@ -1,0 +1,176 @@
+{
+ "cutoffs": {
+  "pci": {
+   "cutoff": 0.2486,
+   "separable_in_calibration": false
+  },
+  "rate_hz": {
+   "cutoff": 2.0395,
+   "separable_in_calibration": true
+  }
+ },
+ "calibration": {
+  "C1": {
+   "pci": 0.2696,
+   "channels_active": 9,
+   "rate_hz": 3.044,
+   "state": "wake"
+  },
+  "C2": {
+   "pci": 0.3352,
+   "channels_active": 12,
+   "rate_hz": 3.109,
+   "state": "wake"
+  },
+  "C3": {
+   "pci": 0.5264,
+   "channels_active": 11,
+   "rate_hz": 3.227,
+   "state": "wake"
+  },
+  "C4": {
+   "pci": 0.485,
+   "channels_active": 9,
+   "rate_hz": 3.275,
+   "state": "wake"
+  },
+  "C5": {
+   "pci": 0.353,
+   "channels_active": 20,
+   "rate_hz": 0.161,
+   "state": "sleep"
+  },
+  "C6": {
+   "pci": 0.2084,
+   "channels_active": 20,
+   "rate_hz": 0.804,
+   "state": "sleep"
+  },
+  "C7": {
+   "pci": 0.2276,
+   "channels_active": 19,
+   "rate_hz": 0.949,
+   "state": "sleep"
+  },
+  "C8": {
+   "pci": 0.1964,
+   "channels_active": 19,
+   "rate_hz": 1.035,
+   "state": "sleep"
+  }
+ },
+ "blind": {
+  "P01": {
+   "pci": 0.2387,
+   "channels_active": 19,
+   "rate_hz": 0.693,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P02": {
+   "pci": 0.4401,
+   "channels_active": 8,
+   "rate_hz": 3.242,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P03": {
+   "pci": 0.1963,
+   "channels_active": 19,
+   "rate_hz": 0.871,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P04": {
+   "pci": 0.2362,
+   "channels_active": 20,
+   "rate_hz": 0.775,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P05": {
+   "pci": 0.4075,
+   "channels_active": 15,
+   "rate_hz": 3.035,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P06": {
+   "pci": 0.211,
+   "channels_active": 18,
+   "rate_hz": 0.927,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P07": {
+   "pci": 0.3437,
+   "channels_active": 15,
+   "rate_hz": 3.027,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P08": {
+   "pci": 0.4224,
+   "channels_active": 9,
+   "rate_hz": 3.241,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P09": {
+   "pci": 0.3275,
+   "channels_active": 11,
+   "rate_hz": 3.092,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P10": {
+   "pci": 0.4416,
+   "channels_active": 10,
+   "rate_hz": 3.236,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P11": {
+   "pci": 0.2242,
+   "channels_active": 20,
+   "rate_hz": 0.85,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P12": {
+   "pci": 0.3651,
+   "channels_active": 11,
+   "rate_hz": 3.152,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P13": {
+   "pci": 0.1939,
+   "channels_active": 19,
+   "rate_hz": 0.942,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P14": {
+   "pci": 0.2198,
+   "channels_active": 20,
+   "rate_hz": 0.968,
+   "label_by_pci": "unconscious-like",
+   "label_by_rate": "unconscious-like"
+  },
+  "P15": {
+   "pci": 0.3825,
+   "channels_active": 11,
+   "rate_hz": 3.178,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "conscious-like"
+  },
+  "P16": {
+   "pci": 0.2703,
+   "channels_active": 19,
+   "rate_hz": 1.003,
+   "label_by_pci": "conscious-like",
+   "label_by_rate": "unconscious-like"
+  }
+ }
+}

@@ -35,6 +35,7 @@
 - [API reference](#api-reference)
 - [How it was checked](#how-it-was-checked)
 - [Limits — read before using on real data](#limits--read-before-using-on-real-data)
+- [Blind consciousness monitor challenge](challenge/)
 - [References](#references)
 
 ---
@@ -242,6 +243,10 @@ capacity, r2_by_lag = ctx.memory_capacity(seconds=90)
 
 This is the standard linear memory capacity (Jaeger, 2001): how well a ridge readout recovers a random input from 1 to 15 steps back, summed. In our research runs it was about 0.06 in the wake-like state and about 0.30 in the sleep-like state. Adaptation acts as a short memory trace, so the state with the lower PCI remembers more.
 
+## Application: a blind consciousness monitor
+
+[`challenge/`](challenge/) uses the tool on a problem it was built for. 24 simulated patients have hidden wake/sleep states and individual differences. Predictions were pre-registered on GitHub before any run, and the answers were sealed. PCI separated the 16 blind patients perfectly and labelled 15 of 16 correctly. A plain firing-rate marker also scored 16 of 16, so the challenge shows the pipeline works but not that PCI beats simpler markers in this model. Full results and what they mean are in the [challenge README](challenge/README.md).
+
 ## API reference
 
 | Function / class | Purpose |
@@ -273,6 +278,7 @@ Speed: about 2 seconds of CPU per simulated second on 2 cores. The first call co
 
 - **This is the original Lempel–Ziv PCI.** The faster state-transition variant (PCIst; Comolatti et al., 2019) is not included.
 - **Absolute values are not portable.** Clinical PCI uses source-reconstructed TMS-EEG (thousands of sources, 0–300 ms after the pulse) with an empirical cut-off around 0.31 (Casarotto et al., 2016). Values from other channel counts, sampling rates, windows or preprocessing are **not** comparable with that cut-off or with each other. Compare only recordings processed identically.
+- **Near-silent recordings inflate PCI.** Significance is judged against each channel's baseline variability. If baseline activity is almost absent, ordinary small responses look significant and PCI rises. In the [blind challenge](challenge/), a sleep-like network firing at 0.16 Hz scored 0.35. Check baseline activity before trusting a value.
 - **Preprocessing is yours.** Baseline normalization uses each channel's pooled pre-stimulus mean and SD. Artifact rejection, filtering and re-referencing must happen before calling `pci`.
 - **The simulator is a toy cortex.** It has 20 regions on a ring, point neurons, no thalamus and no plasticity. It reproduces the qualitative wake/sleep contrast, not a human brain. Its PCI values are not clinical values.
 - **PCI is not a consciousness detector for arbitrary systems.** It is an empirical marker validated in humans. A high score in a model means "complex like a waking brain's response", nothing more.
